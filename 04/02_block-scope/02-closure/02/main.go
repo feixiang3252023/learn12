@@ -23,3 +23,8 @@ closure helps us limit the scope of variables used by multiple functions
 without closure, for two or more funcs to have access to the same variable,
 that variable would need to be package scope
 */
+
+/*闭包可以帮助限制多个函数共享变量的作用域，
+而不必将变量声明为包级别。在这个例子中，
+虽然 x 是全局变量，但如果使用闭包，
+则可以将变量的作用域限制在特定的函数中。*/
